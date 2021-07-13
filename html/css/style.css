@@ -2575,7 +2575,7 @@ body.modal {
 .grid-skills {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 3.25rem;
+  grid-gap: 4rem;
 }
 .skills-col {
   width: 100%;
@@ -2616,7 +2616,7 @@ body.modal {
 @media (max-width: 768px) {
   .skills-col .svg {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 .skills {
