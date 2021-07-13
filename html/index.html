@@ -822,12 +822,12 @@
               <div class="left">
                 <div class="fields">
                   <form
+                    name="contact"
                     method="POST"
                     class="contact_form"
                     id="contact_form"
                     autocomplete="off"
                     netlify
-                    name="contact"
                   >
                     <div
                       class="returnmessage"
@@ -839,18 +839,29 @@
                     <div class="first">
                       <ul>
                         <li>
-                          <label for="name"
-                            >Name:
-                            <input id="name" type="text" placeholder="Name"
-                          /></label>
+                          <input
+                            id="name"
+                            type="text"
+                            placeholder="Name"
+                            name="name"
+                          />
                         </li>
                         <li>
-                          <input id="email" type="text" placeholder="Email" />
+                          <input
+                            id="email"
+                            type="email"
+                            placeholder="Email"
+                            name="email"
+                          />
                         </li>
                       </ul>
                     </div>
                     <div class="last">
-                      <textarea id="message" placeholder="Message"></textarea>
+                      <textarea
+                        id="message"
+                        placeholder="Message"
+                        name="message"
+                      ></textarea>
                     </div>
                     <button type="submit" class="send-btn">Send Message</button>
 
