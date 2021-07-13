@@ -393,9 +393,22 @@ jQuery(document).ready(function () {
   function edrea_tm_hamburger() {
     var hamburger = jQuery(".hamburger");
     var mobileMenu = jQuery(".waxon_tm_mobile_menu .dropdown");
+    var link = jQuery(".anchor_nav a");
 
     hamburger.on("click", function () {
       var element = jQuery(this);
+
+      if (element.hasClass("is-active")) {
+        element.removeClass("is-active");
+        mobileMenu.slideUp();
+      } else {
+        element.addClass("is-active");
+        mobileMenu.slideDown();
+      }
+      return false;
+    });
+    link.on("click", function () {
+      var element = jQuery(".hamburger");
 
       if (element.hasClass("is-active")) {
         element.removeClass("is-active");
