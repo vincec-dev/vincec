@@ -692,7 +692,6 @@ jQuery(document).ready(function () {
 
   function waxon_tm_contact_form() {
     jQuery(".contact_form #send_message").on("click", function () {
-      console.log("Button Clicked!");
       var name = jQuery(".contact_form #name").val();
       var email = jQuery(".contact_form #email").val();
       var message = jQuery(".contact_form #message").val();
