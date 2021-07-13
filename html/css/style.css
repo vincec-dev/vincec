@@ -2512,7 +2512,7 @@ body.modal {
 
 @media (max-width: 768px) {
   .waxon_tm_hero .content_inner h3 {
-    font-size: 50px;
+    font-size: 32px;
   }
   .waxon_tm_service ul li .svg {
     position: relative;
@@ -2630,7 +2630,7 @@ body.modal {
 }
 .skills-col h3 {
   margin: 0px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 16px;
 }
