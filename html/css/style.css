@@ -551,7 +551,7 @@ h6 {
   top: 50%;
   transform: translateY(-50%);
 }
-.waxon_tm_hero .content_inner h3 {
+.waxon_tm_hero .content_inner h1 {
   background: -webkit-linear-gradient(#006c3a, #385245);
   -webkit-background-clip: text;
   font-size: 75px;
@@ -560,12 +560,12 @@ h6 {
   padding: 0px;
   line-height: 1.1;
 }
-.waxon_tm_hero .content_inner h3.stroke {
+/* .waxon_tm_hero .content_inner h3.stroke {
   -webkit-text-stroke: 1px #385245;
   -webkit-text-fill-color: white;
   color: transparent;
   background: transparent;
-}
+} */
 .waxon_tm_hero .content_inner span {
   font-family: "Averia Serif Libre", cursive;
   font-weight: 400;
@@ -698,8 +698,8 @@ h6 {
   padding-bottom: 55px;
   margin-bottom: 32px;
 }
-.waxon_tm_about .name h3,
-.skills-title h3 {
+.waxon_tm_about .name h1,
+.skills-title h1 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 35px;
@@ -710,8 +710,8 @@ h6 {
   margin-bottom: 32px;
   padding-bottom: 55px;
 }
-.waxon_tm_about .name h3 .bg,
-.skills-title h3 .bg {
+.waxon_tm_about .name h1 .bg,
+.skills-title h1 .bg {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1095,13 +1095,13 @@ h6 {
   align-items: center;
   justify-content: space-between;
 }
-.waxon_tm_main_title .title h3 {
+.waxon_tm_main_title .title h1 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 35px;
   position: relative;
 }
-.waxon_tm_main_title .title h3 .bg {
+.waxon_tm_main_title .title h1 .bg {
   position: absolute;
   left: -6px;
   top: 0px;
@@ -1468,7 +1468,7 @@ h6 {
 .waxon_tm_testimonials .short {
   padding-left: 25px;
 }
-.waxon_tm_testimonials .short h3 {
+.waxon_tm_testimonials .short h1 {
   overflow: hidden;
   margin: 0px;
   padding: 0px;
@@ -2296,7 +2296,7 @@ body.modal {
   .waxon_tm_hero .background .rightpart {
     padding-left: 0px;
   }
-  .waxon_tm_hero .content_inner h3 {
+  .waxon_tm_hero .content_inner h1 {
     font-size: 90px;
     color: white;
   }
@@ -2346,20 +2346,15 @@ body.modal {
   .waxon_tm_mobile_menu {
     display: block;
   }
-  .waxon_tm_hero .content_inner h3 {
+  .waxon_tm_hero .content_inner h1 {
     font-size: 60px;
   }
-  /* .waxon_tm_main_title .title h3 .bg {
-    display: none;
-  } */
-  /* .waxon_tm_about .name h3 .bg {
-    display: none;
-  } */
   .waxon_tm_about .about_inner {
     flex-direction: column;
     align-items: baseline;
   }
   .waxon_tm_about .about_inner .left {
+    display: none;
     width: 100%;
     margin-bottom: 50px;
   }
@@ -2370,10 +2365,10 @@ body.modal {
     width: 100%;
     padding-left: 0px;
   }
-  .waxon_tm_about .name h3 {
+  .waxon_tm_about .name h1 {
     font-size: 30px;
   }
-  .waxon_tm_main_title .title h3 {
+  .waxon_tm_main_title .title h1 {
     font-size: 30px;
   }
   .waxon_tm_main_title {
@@ -2511,8 +2506,8 @@ body.modal {
 }
 
 @media (max-width: 768px) {
-  .waxon_tm_hero .content_inner h3 {
-    font-size: 32px;
+  .waxon_tm_hero .content_inner h1 {
+    font-size: 55px;
   }
   .waxon_tm_service ul li .svg {
     position: relative;
@@ -2559,17 +2554,20 @@ body.modal {
     width: 100%;
     padding-left: 0px;
   }
-  .waxon_tm_main_title .title h3 .bg,
-  .waxon_tm_about .name h3 .bg,
-  .skills-title h3 .bg {
+  .waxon_tm_main_title .title h1 .bg,
+  .waxon_tm_about .name h1 .bg,
+  .skills-title h1 .bg {
     font-size: 5rem;
   }
 }
 @media (max-width: 576px) {
-  .waxon_tm_main_title .title h3 .bg,
-  .waxon_tm_about .name h3 .bg,
-  .skills-title h3 .bg {
+  .waxon_tm_main_title .title h1 .bg,
+  .waxon_tm_about .name h1 .bg,
+  .skills-title h1 .bg {
     font-size: 3rem;
+  }
+  .waxon_tm_hero .content_inner h1 {
+    font-size: 32px;
   }
 }
 
