@@ -189,11 +189,11 @@ h6 {
   z-index: 10;
   padding: 20px 0px;
 
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .waxon_tm_topbar.opened {
   top: 0px;
@@ -2001,6 +2001,7 @@ body.modal {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
   font-style: italic;
+  font-size: 15px;
 }
 .waxon_tm_contact .fields ul li input:focus {
   outline: none;
@@ -2014,6 +2015,7 @@ body.modal {
   margin-bottom: 20px;
   background-color: transparent;
   font-style: italic;
+  font-size: 15px;
 }
 .waxon_tm_contact .fields .last textarea:focus {
   outline: none;
