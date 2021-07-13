@@ -33,7 +33,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
   word-wrap: break-word;
@@ -84,7 +84,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.4;
   font-family: "Averia Serif Libre", cursive;
   font-style: italic;
@@ -245,7 +245,7 @@ h6 {
   text-decoration: none;
   color: #385245;
   font-family: "Averia Serif Libre", cursive;
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -457,7 +457,7 @@ h6 {
   display: inline-block;
   padding: 4px 0px;
   font-family: "Averia Serif Libre", cursive;
-  font-weight: 500;
+  font-weight: 400;
 }
 .waxon_tm_mobile_menu .logo img {
   max-width: 125px;
@@ -718,14 +718,14 @@ h6 {
   font-family: "Averia Serif Libre", cursive;
   color: #385245;
   font-size: 110px;
-  font-weight: 300;
+  font-weight: 400;
   opacity: 1;
   line-height: 0;
   -webkit-user-select: none;
 }
 .waxon_tm_about .name span {
   font-family: "Averia Serif Libre", cursive;
-  font-weight: 600;
+  font-weight: 400;
   display: inline-block;
   padding-top: 10px;
 }
@@ -1107,7 +1107,7 @@ h6 {
   font-family: "Averia Serif Libre", cursive;
   color: #385245;
   font-size: 110px;
-  font-weight: 300;
+  font-weight: 400;
   opacity: 1;
   line-height: 0;
   -webkit-user-select: none;
@@ -1151,7 +1151,7 @@ h6 {
   text-decoration: none;
   color: #000;
   font-family: "Averia Serif Libre", cursive;
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -1478,7 +1478,7 @@ h6 {
   font-family: "Averia Serif Libre", cursive;
   font-size: 18px;
   color: #000;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 8px;
 }
 .waxon_tm_testimonials .short .job {
@@ -1914,7 +1914,7 @@ body.modal {
 }
 .waxon_tm_modalbox_news .news_share span {
   font-family: "Averia Serif Libre", cursive;
-  font-weight: 600;
+  font-weight: 400;
   font-style: italic;
   padding-right: 20px;
   color: #000;
@@ -2082,7 +2082,7 @@ body.modal {
   display: block;
   color: #fff;
   font-family: "Averia Serif Libre", cursive;
-  font-weight: 500;
+  font-weight: 400;
 }
 .waxon_tm_copyright .copyright_inner > ul > li span a {
   text-decoration: none;
