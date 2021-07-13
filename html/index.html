@@ -822,12 +822,12 @@
               <div class="left">
                 <div class="fields">
                   <form
-                    action="/"
-                    method="post"
+                    method="POST"
                     class="contact_form"
                     id="contact_form"
                     autocomplete="off"
                     netlify
+                    name="contact"
                   >
                     <div
                       class="returnmessage"
@@ -849,11 +849,7 @@
                     <div class="last">
                       <textarea id="message" placeholder="Message"></textarea>
                     </div>
-                    <div class="waxon_tm_button" data-position="left">
-                      <a id="send_message" href="#">
-                        <span>Send Message</span>
-                      </a>
-                    </div>
+                    <button type="submit" class="send-btn">Send Message</button>
 
                     <!-- If you want to change mail address to yours, please open modal.php and go to line 4 -->
                   </form>

@@ -747,7 +747,8 @@ h6 {
   float: left;
 }
 .waxon_tm_button a,
-.view-website-btn {
+.view-website-btn,
+.send-btn {
   font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
